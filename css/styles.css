@@ -1,0 +1,145 @@
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 200px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.title-Image {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+.cs-class {
+  position: absolute;
+  left: 50%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+h2 {
+  font-family: "Ubuntu";
+}
+h3 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 996px) {
+  #title {
+    text-align: center;
+  }
+  .title-Image {
+    position: static;
+    width: 100%;
+    transform: rotate(0);
+  }
+  .cs-class {
+    left: 0;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+.download-button{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#footer{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin:20px 10px;
+}
